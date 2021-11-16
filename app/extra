@@ -1,0 +1,9 @@
+To get the temperature in Celsius use units=metric.
+
+@GET("data/2.5/weather?appid=<YOUR_APPID_HERE>&units=metric&q=Warwick,uk")
+Change units to imperial to get the temperature in Fahrenheit:
+
+@GET("data/2.5/weather?appid=<YOUR_APPID_HERE>&units=imperial&q=Warwick,uk")
+Or leave units out of the url to get Kelvin:
+
+@GET("data/2.5/weather?appid=<YOUR_APPID_HERE>&q=Warwick,uk")

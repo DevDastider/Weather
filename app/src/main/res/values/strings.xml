@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="weather">Weather</string>
+    <string name="kolkata">Kolkata</string>
+    <string name="forecast_button">Get Forecast</string>
+    <string name="customer_care">Customer Care</string>
+    <string name="hint">Enter city name</string>
+</resources>
